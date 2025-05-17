@@ -2,8 +2,6 @@
 
 Don’t wanna mess with Rust just to get a `.bruh` file? Use this simple `.exe` PNG-to-BRUH converter instead.
 
----
-
 ## 🚀 How To Use It
 
 1. **Download the converter**  
