@@ -48,5 +48,5 @@ To view the built-in help menu, run:
 If something breaks, open an issue on GitHub.
 
 # 💬 Credits
-Created by [@webbrowser11](github.com/webbrowser11)
+Created by [@webbrowser11](https://github.com/webbrowser11)
 Made with Python, built for speed and simplicity.
