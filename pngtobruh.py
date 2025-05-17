@@ -1,13 +1,15 @@
 from pathlib import Path
 from PIL import Image
 import struct
+import argparse
+import sys
 
 def png_to_bruh(path: Path):
     try:
         img = Image.open(path)
     except FileNotFoundError:
         print("File not found!")
-        return
+        sys.exit(1)
 
     img = img.convert("RGB")
     width, height = img.size
@@ -30,16 +32,19 @@ def png_to_bruh(path: Path):
         path_to_bruh = path.with_suffix(".bruh")
     else:
         print("Input file must be a .png")
-        return
+        sys.exit(1)
 
     with open(path_to_bruh, "wb") as file:
-        file.write(struct.pack("<I", width))   # little-endian width
-        file.write(struct.pack("<I", height))  # little-endian height
+        file.write(struct.pack("<I", width))
+        file.write(struct.pack("<I", height))
         file.write(out_str.encode("utf-8"))
         file.flush()
 
     print(f"Converted successfully: {path_to_bruh}")
 
 if __name__ == "__main__":
-    input_path = input("Enter the path to the .png file: ").strip()
-    png_to_bruh(Path(input_path))
+    parser = argparse.ArgumentParser(description="Convert PNG to .bruh format.")
+    parser.add_argument("path", type=Path, help="Path to the .png image")
+    args = parser.parse_args()
+
+    png_to_bruh(args.path)
