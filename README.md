@@ -17,16 +17,16 @@ Don’t wanna mess with Rust just to get a `.bruh` file? Use this simple `.exe` 
 
    ```bash
    pngtobruh.exe C:\path\to\your\image.png
-4 .bruh file will be created in the same directory as the PNG.
+4  **A .bruh file will be created in the same directory as the PNG.**
 
 # 📦 Download + Install
-1. Download these files:
+1. **Download these files:**
 
    + 🧱 [pngtobruh.exe](https://github.com/webbrowser11/BRUHIFF-CONVERTER/raw/refs/heads/main/pngtobruh.exe)
 
    + 🖼️ [bruh.exe](https://github.com/webbrowser11/BRUHIFF-CONVERTER/raw/refs/heads/main/BRUHIFF/bruh.exe) — used to open .bruh files
 
-2. After you’ve converted your PNG:
+2. **After you’ve converted your PNG:**
 
    + Double-click the resulting .bruh file
 
@@ -48,5 +48,5 @@ To view the built-in help menu, run:
 If something breaks, open an issue on GitHub.
 
 # 💬 Credits
-Created by @webbrowser11
+Created by [@webbrowser11](github.com/webbrowser11)
 Made with Python, built for speed and simplicity.
