@@ -19,36 +19,36 @@ Don’t wanna mess with Rust just to get a `.bruh` file? Use this simple `.exe` 
 
    ```bash
    pngtobruh.exe C:\path\to\your\image.png
-A .bruh file will be created in the same directory as the PNG.
+4 .bruh file will be created in the same directory as the PNG.
 
-📦 Download + Install
-Download these files:
+# 📦 Download + Install
+1. Download these files:
 
-🧱 [pngtobruh.exe](https://github.com/webbrowser11/BRUHIFF-CONVERTER/raw/refs/heads/main/pngtobruh.exe)
+   + 🧱 [pngtobruh.exe](https://github.com/webbrowser11/BRUHIFF-CONVERTER/raw/refs/heads/main/pngtobruh.exe)
 
-🖼️ [bruh.exe](https://github.com/webbrowser11/BRUHIFF-CONVERTER/raw/refs/heads/main/BRUHIFF/bruh.exe) — used to open .bruh files
+   + 🖼️ [bruh.exe](https://github.com/webbrowser11/BRUHIFF-CONVERTER/raw/refs/heads/main/BRUHIFF/bruh.exe) — used to open .bruh files
 
-After you’ve converted your PNG:
+2. After you’ve converted your PNG:
 
-Double-click the resulting .bruh file
+   + Double-click the resulting .bruh file
 
-If Windows asks “How do you want to open this file?”:
+   + When Windows asks “How do you want to open this file?”:
 
-Click "More apps"
+      + Click "More apps"
 
-Then click "Choose an app on this PC"
+      + Then click "Choose an app on this PC"
 
-Navigate to where you saved bruh.exe and select it
+      +  Navigate to where you saved bruh.exe and select it
 
-✅ Check “Always use this app to open .bruh files”
+      + ✅ Check “Always use this app to open .bruh files”
 
 Now you’re set. Convert and open .bruh files like a pro.
 
-🛠️ Help & Info
+# 🛠️ Help & Info
 To view the built-in help menu, run:
 `pngtobruh.exe -h`
 If something breaks, open an issue on GitHub.
 
-💬 Credits
+# 💬 Credits
 Created by @webbrowser11
 Made with Python, built for speed and simplicity.
