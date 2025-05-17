@@ -17,7 +17,7 @@ Don’t wanna mess with Rust just to get a `.bruh` file? Use this simple `.exe` 
 
    ```bash
    pngtobruh.exe C:\path\to\your\image.png
-4  **A .bruh file will be created in the same directory as the PNG.**
+4  **A '.bruh' file will be created in the same directory as the PNG.**
 
 # 📦 Download + Install
 1. **Download these files:**
