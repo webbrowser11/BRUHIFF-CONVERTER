@@ -5,7 +5,7 @@ Don’t wanna mess with Rust just to get a `.bruh` file? Use this simple `.exe` 
 ## 🚀 How To Use It
 
 1. **Download the converter**  
-   (See the [Download + Install](#download--install) section)
+   (See the Download + Install section)
 
 2. **Open a Command Prompt**  
    - Go to the folder where `pngtobruh.exe` is located (in File Explorer).
